@@ -1,0 +1,12 @@
+#home-text{
+    font-size: 32px;
+    /* font: bold; */
+}
+
+#title-input{
+    border-radius: 10px;
+    margin-bottom: 6%;
+}
+#select-input{
+    border-radius: 10px;
+}
