@@ -2,7 +2,6 @@
     font-size: 32px;
     /* font: bold; */
 }
-
 #title-input{
     border-radius: 10px;
     margin-bottom: 6%;
@@ -10,3 +9,11 @@
 #select-input{
     border-radius: 10px;
 }
+.all-Categories{
+    /* text-decoration: none; */
+    color: black;
+    /* margin-bottom: 10%; */
+}
+/* .all-Categories.hover{
+    color: blue;
+} */

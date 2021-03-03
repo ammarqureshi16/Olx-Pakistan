@@ -52,17 +52,18 @@
                 </select>
               </form>
 
-              <div style="display: flex;
-               width: 40rem;              
-               
-               border: solid red">
+              <div style="display: flex; width: 40rem; border: solid none">
                 <!-- <form class="d-flex"> -->
-                  <input
-                  style="background-color: transparent;padding: 12px;border-right: none ;"
+                <input
+                  style="
+                    background-color: transparent;
+                    padding: 12px;
+                    border-right: none;
+                  "
                   class="form-control me-2"
                   type="search"
                   placeholder="Find Cars, Mobile Phones and more..."
-                  />
+                />
                 <!-- <button class="btn btn-outline-success" type="submit">
                   Search
                 </button> -->
@@ -90,10 +91,35 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">
-                    <b> ALL CATEGORY </b>
-                  </a>
+                <li style="display: flex" class="nav-item dropdown">
+                  <div>
+                    <a
+                      style="text-decoration: none; color: black"
+                      class="nav-link active"
+                      aria-current="page"
+                      href="#"
+                    >
+                     
+                      <select style="border: none;">
+                        <option selected class="all-Categories">
+                           ALL CATEGORIES
+                        </option>
+                        <option>
+                          Cars on Installments
+                        </option>
+                          
+                      </select>
+                    </a>
+                    <!-- <div
+                      style="
+                        border: solid none;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: centerF;
+                      "
+                    >
+                    </div> -->
+                  </div>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#">
